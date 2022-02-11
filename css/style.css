@@ -1,0 +1,100 @@
+
+f
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: #000;
+    background-color: #fff;
+    margin: 0;
+}
+.conteiner{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.buttons{
+margin-top: 100px;
+text-align: center;
+}
+.button{
+    text-decoration: none;
+    color: inherit;
+    font-size: 30px;
+    margin: 0 40px;
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+}
+.button_1{
+    text-align: left;
+    transition: 2s;
+    font-family: 'Arvo', serif;
+    font-weight: 300;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.button_1 span{
+    transition: 2s;
+}
+.button_1:hover{
+    letter-spacing: 3px;
+    box-shadow: 4px -10px 10px rgb(70, 184, 159);
+}
+.button_1:hover span{
+    margin-left: 30px;
+}
+.button_2{
+    text-align: left;
+    transition: 2s;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 300;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.button_2 span{
+    transition: 2s;
+}
+.button_2:hover{
+    box-shadow: 5px -7px 10px rgb(70, 184, 159);
+}
+.button_2:hover span{
+    margin-left: 150px;
+}
+.button_3{
+    text-align: left;
+    transition: 2s;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 300;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.button_3 span{
+    letter-spacing: 5px;
+    transition: 2s;
+}
+.button_3:hover{
+    box-shadow: 5px 5px 10px rgb(70, 184, 159);
+}
+.button_3:hover span{
+    margin-left: 150px;
+}
+.button_4{
+    text-align: left;
+    transition: 2s;
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    background: rgb(238,238,174);
+    background: radial-gradient(circle, rgba(238,238,174,1) 0%, rgba(226,148,233,1) 98%);
+}
+.button_4 span{
+    letter-spacing: 5px;
+    transition: 2s;
+}
+.button_4:hover{
+    box-shadow: 8px -8px 14px rgb(53, 151, 130);
+}
+.button_4:hover span{
+    margin-right: 150px;
+}
